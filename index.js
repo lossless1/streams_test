@@ -7,6 +7,7 @@ const { URL } = require("url");
 const { promisify } = require("util");
 const { merge } = require("./merge");
 
+console.log(123)
 (async () => {
   // http
   //   .createServer((req, res) => {
